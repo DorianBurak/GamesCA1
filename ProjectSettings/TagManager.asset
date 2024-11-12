@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Heart
+  - Gold
+  - Border
+  - Final
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -11,7 +17,7 @@ TagManager:
   - Confiner
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -40,4 +46,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 1731787921
+    locked: 0
+  - name: Ground
+    uniqueID: 3742545727
+    locked: 0
+  - name: BackBAackGround
+    uniqueID: 973886569
     locked: 0
